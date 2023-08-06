@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="path/to/jquery-1.8.3.min.js"></script>
+    <script src="path/to/jquery.mobile-1.3.1.min.js"></script>
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Information</title>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+          </div>
+          <nav>
+            <ul>
+              <li class="active"><a href="about.html">About</a></li>
+              <li class="active"><a href="menu.html">Menu</a></li>
+            </ul>
+          </nav>
+          
+    </header>
+    <br>
+
+  
+<div class="content">
+  <h1>User Information Page</h1>
+  <div class="menu">
+    <nav>
+      <ul>
+        <li><a href="user.html">User Information</a></li>
+        <li><a href="work.html">Work Activity Log</a></li>
+        <li><a href="graph.html">Activity Graph</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <form>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" required />
+    <br><br>
+    
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" required />
+    <br><br>
+    
+    <label for="birthdate">Birthdate:</label>
+    <input type="date" id="birthdate" required />
+    <br><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" required />
+    <br><br>
+    
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" required />
+    <br><br>
+    
+    <label for="gender">Gender:</label>
+    <select id="gender" required>
+      <option value="">Select Gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <br><br>
+    
+    <button type="button" onclick="saveUserInfo()">Update</button>
+  </form>
+  
+  <script src="script_3.js"></script>
+</div>
+<br>
+<footer>
+    <p>
+        © Jonathan Cifonie. All rights reserved<br>
+        Last Edited 6/6/2023
+    </p>
+</footer>
+</body>
+</html>
