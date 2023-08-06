@@ -1,0 +1,177 @@
+@media (max-width: 100%) {
+  body {
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    #graphCanvas {
+      width: 100%;
+    }
+  }
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(204, 204, 204);
+    background-color: white;
+    
+  }  
+table {
+    border-collapse: collapse;
+    background-color: gray;
+    border-radius: 10px;
+}
+th, td {
+    border: 2px solid black;
+    padding: 8px;
+} 
+img {
+    width: 300px; height: auto;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.content {
+  background-color: rgb(31, 31, 31);
+  padding: 20px;
+  border-radius: 10px;
+}
+.headB {
+    background-color: black;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+header {
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
+  .logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.2s ease;
+  }
+  nav ul li a.active {
+    color: white; 
+  }
+  nav ul li a:hover {
+    background-color: #999;
+  }
+  .application {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .centered {
+    height: auto;
+    background-color: rgb(31, 31, 31);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+  }
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+  }
+  .verse {
+    height: auto;
+    width: auto;
+    background-color: rgb(31, 31, 31);
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+  }
+  .verseApp {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  input[type="radio"] {
+    width: 15px;
+    height: 15px;
+  }
+  input {
+    color: black;
+    background-color: aliceblue;
+    border-radius: 5px;
+    height: 20px;
+  }
+  select {
+    color: black;
+    background-color: aliceblue;
+    border-radius: 5px;
+    height: 25px;
+  }
+  .formatted-paragraph {
+    text-align: left;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 2;
+  }
+button {
+  border: 1px solid black;
+  background-color: rgb(204, 204, 204);
+  border-radius: 10px;
+  height: 25px;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+button:hover {
+  background-color: white;
+  color: rgb(31, 31, 31);
+  font-weight: bold;
+}
+.menu {
+  display: grid;
+  place-items: center;
+  color: rgb(204, 204, 204); 
+}
+
+.shape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+#graphCanvas {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 400px;
+}

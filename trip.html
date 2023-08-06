@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="path/to/jquery-1.8.3.min.js"></script>
+    <script src="path/to/jquery.mobile-1.3.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Information</title>
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+          </div>
+          <nav>
+            <ul>
+              <li class="active"><a href="index.html">My Details</a></li>
+              <li class="active"><a href="mission.html">Missionary Page</a></li>
+              <li class="active"><a href="trip.html">Trip Projection</a></li>
+              <li class="active"><a href="password.html">Mission Tracker</a></li>
+            </ul>
+          </nav>
+    </header>
+    <br>
+    <div class="content">
+        <img src="images/mission_plane.jpeg" alt="Airplane" class="plane-image">
+            <p>Missionary Aircraft in Hati</p>
+            <div class="headB">
+                <h1>Missionary Trip Projection </h1>
+            </div>
+    </div>
+    <div class="application">
+        <div class="centered">
+        <h2>Missionary Trip Projection Application</h2>
+        <label for="people">Number of People (20 max):</label>
+        <br>
+        <input type="range" id="people" min="1" max="20" value="1">
+        <br>
+        <span id="selectedPeople"></span>
+        <br>
+        <br>
+        <label for="days">Number of Days:</label><br><br>
+        <input type="number" id="days" min="1" max="10" value="1">
+        <br><br>
+        <label for="location">Location Selection:</label><br><br>
+        <input type="radio" id="hati" name="location" value="Hati" checked>
+        <label for="hati">Hati</label><br>
+        <input type="radio" id="balkans" name="location" value="The Balkans">
+        <label for="balkans">The Balkans</label><br>
+        <input type="radio" id="africa" name="location" value="South Africa">
+        <label for="africa">South Africa</label><br>
+        <br>
+        <button onclick="displayReport()">Display</button>
+
+
+        <div id="report"></div>
+    </div>
+    </div>
+    <br>
+    <div class="verseApp">
+        <div class="verse">
+            <h2>Verse of the day:</h2>
+            <script src="http://www.verse-a-day.com/js/vad.js"></script>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <p>
+            © Jonathan Cifonie. All rights reserved<br>
+            Last Edited 6/6/2023
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
